@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+ html, body {
+                height: 100%;
+                overflow: hidden;
+                padding: 0px;
+                margin: 0px;
+        }
+#wrapper
+
+#header
+{
+	width:100%;
+	height:72px;
+	margin-bottom: 10px;
+}
+.slidingheader{ background:url(../images/bannerbg.jpg) repeat-x; height:72px; width:100%;}
+#header_left{float:left;}
+#header_right{float:right;}
+/* toolbar */
+#toolbar
+{
+
+	height:1px;
+}
+
+#toolbar_left{
+	position:relative;
+	width:1%;
+	float:left;
+	height:35px;
+	background:url(../images/Icon_bg.jpg) top left repeat-x;
+	padding:0px;
+	margin:0px;
+}
+#toolbar_bg{
+	width:98%;
+	float:left;
+	height:35px;
+	background:url(../images/Icon_bg.jpg) top left repeat-x;
+	padding:0px;
+	margin:0px;
+	
+
+}
+#toolbar_right{
+	position:relative;
+	width:1%;
+	float:left;
+	height:35px;
+	background:url(../images/Icon_bg.jpg) top right repeat-x;
+	padding:0px;
+	margin:0px;
+}
+#breadcrumb{
+	width:100%;
+	height:35px;
+	margin-bottom: 20px;
+	background:url(../images/Breadcrum_bg.jpg) repeat-x;
+}
+#breadcrumb_left{	
+	float:left;
+	height:35px;
+	background:url(../images/Breadcrum_bg.jpg) no-repeat;	
+}
+#breadcrumb_bg{	
+	float:left;	
+	padding:7px; color:#0066FF;
+}
+#breadcrumb_right{	
+	height:35px;
+	float:right;	
+	}
+
+#icon_list{
+margin:0px;
+padding:0px;
+width:50%;
+float:left;
+}
+
+#icon_list ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+}
+#icon_list li {
+	display:inline;
+	margin:0;
+	padding: 0px;
+}
+#icon_list a {
+	float:left;
+	margin: 0;
+	padding: 8px 11px 0px 11px;
+	text-decoration:none;
+}
+#icon_list2 {
+margin:0px;
+padding:0px;
+width:50%;
+float:right;
+}
+#icon_list2 ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+}
+#icon_list2 li {
+	display:inline;
+	margin:0;
+	padding: 8px 11px 0px 11px;
+}
+#icon_list2 a {
+	float:right;
+	margin: 0;
+	padding: 8px 11px 0px 11px;
+	text-decoration:none;
+}
+#nav
+{	font:arial;
+font-size:15px;
+font-weight:bold;
+	float: left;
+	width: 10%;
+  background:url(../images/menu_bg.jpg) top left repeat-x;
+	margin-bottom: 10px;
+}
+.menu_list {	
+	 width:100%;
+}
+.menu_head {
+	padding: 5px 10px;
+	cursor: pointer;
+	position: relative;
+	margin:1px;
+    background: #e7f8fc url(../images/menu_bg.jpg) top left repeat-x;
+	
+ /* for firefox 3.6+ */ 
+}
+.menu_body {
+	display:none;
+	  background: #ccc url(../images/menu_bg.jpg) top left repeat-x;
+
+	
+	
+}
+.menu_body a{
+  display:block;
+  padding-left:10px;
+  text-decoration:none;
+  background:url(../images/sub_nav_bg.jpg) top left repeat-x;
+}
+.menu_body a:hover{
+  color: #000000;
+  text-decoration:underline;
+      background:url(../images/sub_nav_bg.jpg) top left repeat-x;
+
+
+  }
+#content
+{
+	float: center;
+	margin-left: 0;
+	background-color: #fff;
+}
+#footer{
+	width:100%;
+	position:absolute;
+ 	bottom: 0;
+	height:33px;
+	background:url(../images/Breadcrum_bg.jpg) repeat-x;
+}
+#footer_left{	
+	float:left;
+	height:33px;
+	background:url(../images/Breadcrum_bg.jpg) no-repeat;	
+}
+#footer_bg{	
+	float:left;	
+	padding:7px; color:#0066FF;
+}
+#footer_right{	
+	height:33px;
+	float:right;	
+	}
+.show_hide {
+	display:none;
+}
